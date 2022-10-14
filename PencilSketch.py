@@ -1,5 +1,4 @@
 import cv2
-import matplotlib.pyplot as plt
 
 def resize_func(image):
     original_shape = image.shape

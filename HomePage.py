@@ -1,10 +1,8 @@
 from io import BytesIO, BufferedReader
-
 import streamlit as st
 import CartoonifyImage
 import numpy as np
 import cv2
-from PIL import Image
 import PencilSketch
 
 st.title("Open CV Projects")
