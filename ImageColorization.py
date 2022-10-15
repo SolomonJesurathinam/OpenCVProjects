@@ -3,9 +3,9 @@ import numpy as np
 import os
 
 ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__)))
-PROTOTXT = os.path.join(ROOT_DIR,"models\colorization_deploy_v2.prototxt")
-POINTS = os.path.join(ROOT_DIR,"models\pts_in_hull.npy")
-MODEL = os.path.join(ROOT_DIR,"models\colorization_release_v2.caffemodel")
+PROTOTXT = os.path.join(ROOT_DIR,"models/colorization_deploy_v2.prototxt")
+POINTS = os.path.join(ROOT_DIR,"models/pts_in_hull.npy")
+MODEL = os.path.join(ROOT_DIR,"models/colorization_release_v2.caffemodel")
 
 #Load the models
 net = cv2.dnn.readNetFromCaffe(PROTOTXT, MODEL)
